@@ -1,0 +1,1 @@
+function sendNotification(msg){console.log('Sending notification:',msg);} module.exports={sendNotification};

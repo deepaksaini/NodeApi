@@ -1,0 +1,1 @@
+const express=require('express'); const router=express.Router(); const {sendNotification}=require('../utils/sendNotification'); router.get('/',(req,res)=>{sendNotification('Test'); res.send('Notification Sent');}); module.exports=router;

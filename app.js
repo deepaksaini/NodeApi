@@ -1,0 +1,1 @@
+const express=require('express'); const app=express(); const notification=require('./routes/notification'); app.use('/notify',notification); app.listen(3000,()=>console.log('NodeApi running on 3000'));
